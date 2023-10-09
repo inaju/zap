@@ -73,7 +73,7 @@ export default function HomePage() {
 
       <div id='fullScreen' ref={container}>
         <Image
-          src={`/images/image_${count}.png`}
+          src={`/images/images_${count}.png`}
           className='z-1 absolute h-[100vh] w-[100%] '
           alt='changing image'
           quality={100}
