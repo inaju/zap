@@ -40,7 +40,8 @@ export default function HomePage() {
   React.useEffect(() => {
     let intervalId: NodeJS.Timeout;
 
-    if (count <= fileCounter) {
+    // if (count <= fileCounter) {
+    if (count <= 14) {
       intervalId = setInterval(() => {
         setCount(count + 1);
       }, 5000);
