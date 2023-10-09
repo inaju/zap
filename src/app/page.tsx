@@ -55,12 +55,12 @@ export default function HomePage() {
   //   fetch(`/api/run-python`).catch((error) => console.error(error));
   // }, []);
 
-  React.useEffect(() => {
-    fetch(`/api/file-counter`)
-      .then((response) => response.json())
-      .then((data) => setFileCounter(data.fileCount))
-      .catch((error) => console.error(error));
-  }, []);
+  // React.useEffect(() => {
+  //   fetch(`/api/file-counter`)
+  //     .then((response) => response.json())
+  //     .then((data) => setFileCounter(data.fileCount))
+  //     .catch((error) => console.error(error));
+  // }, []);
 
   return (
     <main>
