@@ -70,12 +70,11 @@ export default function HomePage() {
       <div>
         <button onClick={openFullscreen}>Edit</button>
       </div>
-      {fileCounter}
 
       <div id='fullScreen' ref={container}>
         <Image
           src={`/images/images_${count}.png`}
-          className='z-1 absolute h-[100vh] w-[100%] '
+          className='z-1 absolute top-[10rem] h-[140vh] w-[100%] '
           alt='changing image'
           quality={100}
           layout='fill'
